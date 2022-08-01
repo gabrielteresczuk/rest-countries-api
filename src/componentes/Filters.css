@@ -1,0 +1,124 @@
+
+.Filters{
+    padding: 1rem 3rem 1rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.Filters--dark{
+    padding: 1rem 3rem 1rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--Very-Dark-Blue);
+}
+
+.Filters__search{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: var(--White);
+}
+
+.Filters--dark .Filters__search{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: var(--Dark-Blue);
+    color: var(--Very-Light-Gray);
+}
+
+
+.Filters__search label{
+    display: flex;
+    justify-content: center;
+}
+
+.Filters__search input{
+    padding: 5px 5px 5px 10px;
+    border: 0px;
+    font-size: 0.7rem;
+}
+
+.Filters--dark .Filters__search input{
+    padding: 5px 5px 5px 10px;
+    border: 0px;
+    font-size: 0.7rem;
+    background-color: var(--Dark-Blue);
+    color: var(--Very-Light-Gray);
+}
+
+.Filters--dark .Filters__search input::placeholder{
+    color: var(--Very-Light-Gray);
+}
+
+.Filters__search input:focus, input:focus{
+    outline: none;
+}
+
+#search{
+    font-size: 0.8rem;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.Filters__filter{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: var(--White);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    border: 0px;
+}
+
+.Filters--dark .Filters__filter{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: var(--Dark-Blue);
+    color: var(--Very-Light-Gray);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    border: 0px;
+}
+
+.prueba{
+    border-radius: 5px;
+    background-color: red;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+    .Filters{
+        padding: 1rem;
+        width: 100%;
+        gap: 1rem;
+
+    }
+
+    .Filters--dark{
+        padding: 1rem;
+        width: 100%;
+        gap: 1rem;
+    }
+
+
+    .Filters__search{
+        width: 100%;
+    }
+    
+    .Filters--dark .Filters__search{
+        width: 100%;
+    }
+  }

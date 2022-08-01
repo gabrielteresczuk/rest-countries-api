@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.NavBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 3rem;
+    align-items: center;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    background-color: var(--White);
+}
+
+.NavBar-dark{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 3rem;
+    align-items: center;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+    background-color: var(--Dark-Blue);
+    color: var(--Very-Light-Gray);
+}
+
+.NavBar h2{
+    font-weight: 800;
+}
+
+.NavBar button{
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.NavBar-dark button{
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--Very-Light-Gray);
+    gap: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.darkmode {
+  font-size:0.9rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.NavBar-dark .darkmode {
+    font-size:0.9rem;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .NavBar{
+        padding: 1rem ;
+    }
+
+    .NavBar-dark{
+        padding: 1rem ;
+    }
+
+    .NavBar h2{
+        font-weight: 800;
+        font-size: 1rem;
+    }
+    
+  }

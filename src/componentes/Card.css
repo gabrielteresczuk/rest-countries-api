@@ -1,0 +1,56 @@
+.Card_Cont{
+    padding: 2rem;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    /*background-color: var(--White);*/
+    border-radius: 2px;
+}
+
+.Card:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+}
+
+.Card img{
+    border-radius: 5px 5px 0px 0px;
+    max-width: auto;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+.Card__desc{
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--White);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+.App__grid--dark .Card__desc{
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--Dark-Blue);
+    border-radius: 0px 0px 5px 5px;
+    color: var(--Very-Light-Gray);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+.Card__desc{
+    text-decoration: none;
+    color: var(--Very-Dark-Blue-Text)
+}
+
+.Card__desc ul{
+    list-style: none;
+}
+
