@@ -24,7 +24,7 @@ function App() {
       <NavBar changeTheme={changeTheme} dark={dark}/>
       <Routes>
         <Route exact path='/' element={<Inicio dark={dark}/>} />
-        <Route exact path='/rest-countries-api/' element={<Inicio dark={dark}/>} />
+        <Route exact path='/rest-countries-api' element={<Inicio dark={dark}/>} />
         <Route exact path='/Pais/:paisId' element={<Pais dark={dark}/>}/>
       </Routes>
     </BrowserRouter>
